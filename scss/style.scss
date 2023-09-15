@@ -1,0 +1,174 @@
+@import "./reset";
+
+$fontsPath: "../fonts/";
+$fontRegular: "PPAgrandir-Regular";
+$fontBold: "PPAgrandirText-Bold";
+$fontHeavy: "PPAgrandir-GrandHeavy";
+
+@font-face {
+  font-family: "Agrandir";
+  src: url($fontsPath + $fontRegular + ".eot");
+  src: url($fontsPath + $fontRegular + ".eot?#iefix")
+      format("embedded-opentype"),
+    url($fontsPath + $fontRegular + ".woff2") format("woff2"),
+    url($fontsPath + $fontRegular + ".woff") format("woff"),
+    url($fontsPath + $fontRegular + ".ttf") format("truetype"),
+    url($fontsPath + $fontRegular + ".svg#" + $fontRegular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir";
+  src: url($fontsPath + $fontBold + ".eot");
+  src: url($fontsPath + $fontBold + ".eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + $fontBold + ".woff2") format("woff2"),
+    url($fontsPath + $fontBold + ".woff") format("woff"),
+    url($fontsPath + $fontBold + ".ttf") format("truetype"),
+    url($fontsPath + $fontBold + ".svg#" + $fontBold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir";
+  src: url($fontsPath + $fontHeavy + ".eot");
+  src: url($fontsPath + $fontHeavy + ".eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + $fontHeavy + ".woff2") format("woff2"),
+    url($fontsPath + $fontHeavy + ".woff") format("woff"),
+    url($fontsPath + $fontHeavy + ".ttf") format("truetype"),
+    url($fontsPath + $fontHeavy + ".svg#" + $fontHeavy) format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #fff;
+  font-family: "Agrandir";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.orange-button {
+  border-radius: 1000px;
+  border: 1px solid #ffa800;
+  background-color: #ffa800;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+
+  &_transaparent {
+    background-color: transparent;
+    color: #ffa800;
+  }
+}
+
+.wrapper {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(15, 15, 15, 0.4);
+  backdrop-filter: blur(9px);
+  padding: 24px 70px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    &__image {
+      width: 38px;
+      flex: 0 0 auto;
+    }
+    &__title {
+      font-weight: 800;
+      line-height: 108%;
+    }
+  }
+
+  .nav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    gap: 24px;
+
+    &__item {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      line-height: 20px; /* 125% */
+      letter-spacing: 0.32px;
+
+      &_nested {
+        background-image: url('../img/nested-menu.png');
+        padding-right: 26px;
+      }
+    }
+  }
+}
+
+.main {
+  .screen {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .screen_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 191px 450px 0 450px;
+  }
+
+  .main-title {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
+
+  .attract {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+
+    &__input {
+      flex-basis: 50%;
+
+      padding: 16px;
+      border-radius: 30px;
+      border: 2px solid #a1aebf;
+      background-color: transparent;
+    }
+
+    &__button {
+      flex: 0 0 auto;
+    }
+  }
+}
+
+.footer {
+}
