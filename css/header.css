@@ -1,0 +1,59 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: rgba(15, 15, 15, 0.4);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  padding: 24px 70px;
+}
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+.header .logo__image {
+  width: 38px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.header .logo__title {
+  font-weight: 800;
+  line-height: 108%;
+  color: #fff;
+}
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.header .menu__item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+.header .menu__item_nested {
+  background-image: url("../img/nested-menu.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 26px;
+}

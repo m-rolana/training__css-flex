@@ -1,0 +1,49 @@
+.trusted {
+    padding: 80px 70px 124px 70px;
+    background-color: #000;
+  
+    &__text {
+      display: flex;
+      gap: 32px;
+      margin: 0 0 64px 0;
+    }
+  
+    &__title {
+      flex-basis: 50%;
+    }
+  
+    &__description {
+      flex-basis: 50%;
+    }
+  
+    .companies {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    
+      &__row {
+        display: flex;
+        gap: 20px;
+    
+        &_right {
+          justify-content: start;
+          margin-left: -170px;
+        }
+    
+        &_left {
+          justify-content: end;
+          margin-right: -170px;
+        }
+      }
+    
+      .company {
+        border-radius: 10px;
+        border: 1px solid #A1AEBF;
+    
+        &__logo {
+          padding: 16px 24px;
+        }
+      }
+    }
+    
+  }

@@ -1,0 +1,41 @@
+$fontsPath: "../fonts/";
+$fontRegular: "PPAgrandir-Regular";
+$fontBold: "PPAgrandirText-Bold";
+$fontHeavy: "PPAgrandir-GrandHeavy";
+
+@font-face {
+  font-family: "Agrandir";
+  src: url($fontsPath + $fontRegular + ".eot");
+  src: url($fontsPath + $fontRegular + ".eot?#iefix")
+      format("embedded-opentype"),
+    url($fontsPath + $fontRegular + ".woff2") format("woff2"),
+    url($fontsPath + $fontRegular + ".woff") format("woff"),
+    url($fontsPath + $fontRegular + ".ttf") format("truetype"),
+    url($fontsPath + $fontRegular + ".svg#" + $fontRegular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir";
+  src: url($fontsPath + $fontBold + ".eot");
+  src: url($fontsPath + $fontBold + ".eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + $fontBold + ".woff2") format("woff2"),
+    url($fontsPath + $fontBold + ".woff") format("woff"),
+    url($fontsPath + $fontBold + ".ttf") format("truetype"),
+    url($fontsPath + $fontBold + ".svg#" + $fontBold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir";
+  src: url($fontsPath + $fontHeavy + ".eot");
+  src: url($fontsPath + $fontHeavy + ".eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + $fontHeavy + ".woff2") format("woff2"),
+    url($fontsPath + $fontHeavy + ".woff") format("woff"),
+    url($fontsPath + $fontHeavy + ".ttf") format("truetype"),
+    url($fontsPath + $fontHeavy + ".svg#" + $fontHeavy) format("svg");
+  font-weight: 800;
+  font-style: normal;
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Agrandir";
+  src: url("../fonts/PPAgrandir-Regular.eot");
+  src: url("../fonts/PPAgrandir-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PPAgrandir-Regular.woff2") format("woff2"), url("../fonts/PPAgrandir-Regular.woff") format("woff"), url("../fonts/PPAgrandir-Regular.ttf") format("truetype"), url("../fonts/PPAgrandir-Regular.svg#PPAgrandir-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Agrandir";
+  src: url("../fonts/PPAgrandirText-Bold.eot");
+  src: url("../fonts/PPAgrandirText-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PPAgrandirText-Bold.woff2") format("woff2"), url("../fonts/PPAgrandirText-Bold.woff") format("woff"), url("../fonts/PPAgrandirText-Bold.ttf") format("truetype"), url("../fonts/PPAgrandirText-Bold.svg#PPAgrandirText-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Agrandir";
+  src: url("../fonts/PPAgrandir-GrandHeavy.eot");
+  src: url("../fonts/PPAgrandir-GrandHeavy.eot?#iefix") format("embedded-opentype"), url("../fonts/PPAgrandir-GrandHeavy.woff2") format("woff2"), url("../fonts/PPAgrandir-GrandHeavy.woff") format("woff"), url("../fonts/PPAgrandir-GrandHeavy.ttf") format("truetype"), url("../fonts/PPAgrandir-GrandHeavy.svg#PPAgrandir-GrandHeavy") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}

@@ -1,0 +1,40 @@
+.screen_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 191px 450px 0 450px;
+  }
+
+  .main-title {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 16px;
+    width: 100%;
+    color: #fff;
+  }
+
+  .description {
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+  }
+
+  .attract {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+
+    &__input {
+      flex-basis: 50%;
+
+      padding: 16px;
+      border-radius: 30px;
+      border: 2px solid #a1aebf;
+      background-color: transparent;
+    }
+
+    &__button {
+      flex: 0 0 auto;
+    }
+  }
