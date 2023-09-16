@@ -48,10 +48,11 @@ html {
 
 body {
   background-color: #0f0f0f;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.60);;
   font-family: "Agrandir";
   font-size: 16px;
-  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .orange-button {
@@ -71,6 +72,13 @@ body {
     background-color: transparent;
     color: #ffa800;
   }
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
 }
 
 .wrapper {
@@ -95,6 +103,7 @@ body {
     &__title {
       font-weight: 800;
       line-height: 108%;
+      color: #fff;
     }
   }
 
@@ -113,10 +122,9 @@ body {
       color: #fff;
       font-weight: 700;
       line-height: 20px; /* 125% */
-      letter-spacing: 0.32px;
 
       &_nested {
-        background-image: url('../img/nested-menu.png');
+        background-image: url("../img/nested-menu.png");
         background-repeat: no-repeat;
         background-position: right;
         padding-right: 26px;
@@ -144,13 +152,12 @@ body {
     line-height: 80px;
     margin-bottom: 16px;
     width: 100%;
+    color: #fff;
   }
 
   .description {
     margin-bottom: 32px;
     color: rgba(255, 255, 255, 0.6);
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
     width: 100%;
   }
 
@@ -172,6 +179,54 @@ body {
       flex: 0 0 auto;
     }
   }
+}
+
+.trusted {
+  padding: 80px 70px 124px 70px;
+  background-color: #000;
+
+  &__text {
+    display: flex;
+    gap: 32px;
+    margin: 0 0 64px 0;
+  }
+
+  &__title {
+    flex-basis: 50%;
+  }
+
+  &__description {
+    flex-basis: 50%;
+  }
+
+  .companies {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    &__row {
+      display: flex;
+      gap: 20px;
+  
+      &_right {
+        justify-content: start;
+      }
+  
+      &_left {
+        justify-content: end;
+      }
+    }
+  
+    .company {
+      border-radius: 10px;
+      border: 1px solid #A1AEBF;
+  
+      &__logo {
+        padding: 16px 24px;
+      }
+    }
+  }
+  
 }
 
 .footer {
