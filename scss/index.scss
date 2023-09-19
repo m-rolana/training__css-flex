@@ -3,6 +3,7 @@
 @import "./header";
 @import "./main-screen";
 @import "./trusted-companies";
+@import "./why-choose-us";
 @import "./footer";
 
 
@@ -69,10 +70,16 @@ a {
   }
 }
 
-.main {
-  .screen {
-    height: 100vh;
-    box-sizing: border-box;
-  }
+.width-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
+.screen {
+  width: 100%;
+
+  &_odd {
+    background-color:#000;
+  }
+}

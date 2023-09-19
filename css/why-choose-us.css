@@ -1,0 +1,7 @@
+.choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* background-color: #000; */
+  background-color: #616161;
+}
