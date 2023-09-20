@@ -3,6 +3,7 @@
 @import "./header";
 @import "./main-screen";
 @import "./trusted-companies";
+@import "./section-we-offer";
 @import "./why-choose-us";
 @import "./footer";
 
@@ -12,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #0f0f0f;
+  background-color: #000;
   color: rgba(255, 255, 255, 0.60);
   font-family: "Agrandir";
   font-size: 16px;
@@ -80,6 +81,6 @@ a {
   width: 100%;
 
   &_odd {
-    background-color:#000;
+    background-color:#0f0f0f;
   }
 }
