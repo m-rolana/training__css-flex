@@ -1,0 +1,83 @@
+.our-work {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding: 80px 0;
+
+  &__column {
+  }
+
+  &__intro {
+    max-width: 412px;
+    height: 100%;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    margin-bottom: 24px;
+  }
+
+  &__more {
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 24px;
+    margin-bottom: 32px;
+
+    border-radius: 4px;
+    border: 1px solid #a1aebf;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &__image {
+      margin-bottom: 24px;
+      align-self: center;
+    }
+
+    &__tag {
+      margin-bottom: 20px;
+      padding: 4px 8px;
+      
+      border-radius: 4px;
+      background-color: #ffa800;
+
+      color: #1a365d;
+      font-family: Archivo;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px; /* 133.333% */
+      letter-spacing: 0.24px;
+      text-transform: uppercase;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+
+      font-family: Quicksand;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px; /* 133.333% */
+    }
+
+    &__more {
+      padding-right: 26px;
+
+      color: #728095;
+      font-family: Quicksand;
+      line-height: 20px; /* 125% */
+      letter-spacing: 0.32px;
+
+      background-image: url("../img/project-more.png");
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+  }
+}
