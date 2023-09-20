@@ -8,39 +8,45 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header container">
-        <div class="logo">
-          <img class="logo__image" src="./img/logo.png" alt="Logo" />
-          <p class="logo__title">Shadient.co</p>
-        </div>
-        <nav class="nav">
-          <div class="menu">
-            <a class="menu__item menu__item_nested" href="">Company</a>
-            <a class="menu__item" href="">Services</a>
-            <a class="menu__item" href="">Resources</a>
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <div class="logo">
+              <img class="logo__image" src="./img/logo.png" alt="Logo" />
+              <p class="logo__title">Shadient.co</p>
+            </div>
+            <nav class="nav">
+              <div class="menu">
+                <a class="menu__item menu__item_nested" href="">Company</a>
+                <a class="menu__item" href="">Services</a>
+                <a class="menu__item" href="">Resources</a>
+              </div>
+              <button class="orange-button orange-button_transaparent">
+                Contact
+              </button>
+            </nav>
           </div>
-          <button class="orange-button orange-button_transaparent">
-            Contact
-          </button>
-        </nav>
+        </div>
       </header>
 
       <main class="main">
-        <section class="container">
-          <div class="main-screen">
-            <h1 class="main-title">Attract NewLeads like never before</h1>
-            <p class="description">
-              Risus commodo id odio turpis pharetra elementum. Pulvinar porta
-              porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
-            </p>
-            <div class="attract">
-              <input class="attract__input" type="text" placeholder="Email" />
-              <button class="attract__button orange-button">Attract</button>
+        <section class="section bg-light-black">
+          <div class="container">
+            <div class="main-screen">
+              <h1 class="main-title">Attract NewLeads like never before</h1>
+              <p class="description">
+                Risus commodo id odio turpis pharetra elementum. Pulvinar porta
+                porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
+              </p>
+              <div class="attract">
+                <input class="attract__input" type="text" placeholder="Email" />
+                <button class="attract__button orange-button">Attract</button>
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="screen_odd">
+        <section class="section">
           <div class="container">
             <div class="trusted">
               <div class="trusted__text">
@@ -162,51 +168,92 @@
           </div>
         </section>
 
-        <section class="screen">
+        <section class="section bg-light-black">
           <div class="container">
-            <div class="screen_we-offer">
-              <h2 class="title we-offer">We Offer</h2>
-            <p class="we-offer__description">
-              Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. 
-            </p>
-           <div class="we-offer__container">
-            <div class="offers">
-              <article class="offer">
-                <img src="./img/offers/branding.png" alt="Branding" class="offer__logo">
-                <h3 class="offer__title">Branding</h3>
-                <p class="offer__description">Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices</p>
-              </article>
-              <article class="offer">
-                <img src="./img/offers/web-development.png" alt="Web development" class="offer__logo">
-                <h3 class="offer__title">Web development</h3>
-                <p class="offer__description">Integer ante non nunc, eget est justo vel semper nunc. Lacus </p>
-              </article>
-              <article class="offer">
-                <img src="./img/offers/digital-marketing.png" alt="Digital marketing" class="offer__logo">
-                <h3 class="offer__title">Digital marketing</h3>
-                <p class="offer__description">Sed faucibus faucibus egestas volutpat, accumsan adipiscing egestas est. Auctor et leo urna est.</p>
-              </article>
+            <div class="we-offer">
+              <h2 class="title we-offer__title">We Offer</h2>
+              <p class="we-offer__description">
+                Risus commodo id odio turpis pharetra elementum. Pulvinar porta
+                porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
+                consequat magna semper orci a tincidunt.
+              </p>
+              <div class="offers">
                 <article class="offer">
-                  <img src="./img/offers/mobile-app.png" alt="Mobile App" class="offer__logo">
+                  <img
+                    src="./img/offers/branding.png"
+                    alt="Branding"
+                    class="offer__logo"
+                  />
+                  <h3 class="offer__title">Branding</h3>
+                  <p class="offer__description">
+                    Egestas tellus nunc proin amet tellus tincidunt lacus
+                    consequat. Ultrices
+                  </p>
+                </article>
+                <article class="offer">
+                  <img
+                    src="./img/offers/web-development.png"
+                    alt="Web development"
+                    class="offer__logo"
+                  />
+                  <h3 class="offer__title">Web development</h3>
+                  <p class="offer__description">
+                    Integer ante non nunc, eget est justo vel semper nunc. Lacus
+                  </p>
+                </article>
+                <article class="offer">
+                  <img
+                    src="./img/offers/digital-marketing.png"
+                    alt="Digital marketing"
+                    class="offer__logo"
+                  />
+                  <h3 class="offer__title">Digital marketing</h3>
+                  <p class="offer__description">
+                    Sed faucibus faucibus egestas volutpat, accumsan adipiscing
+                    egestas est. Auctor et leo urna est.
+                  </p>
+                </article>
+                <article class="offer">
+                  <img
+                    src="./img/offers/mobile-app.png"
+                    alt="Mobile App"
+                    class="offer__logo"
+                  />
                   <h3 class="offer__title">Mobile App</h3>
-                  <p class="offer__description">Egestas tellus nunc proin amet tellus tincidunt lacus consequat. Ultrices</p>
+                  <p class="offer__description">
+                    Egestas tellus nunc proin amet tellus tincidunt lacus
+                    consequat. Ultrices
+                  </p>
                 </article>
                 <article class="offer">
-                  <img src="./img/offers/seo.png" alt="SEO" class="offer__logo">
+                  <img
+                    src="./img/offers/seo.png"
+                    alt="SEO"
+                    class="offer__logo"
+                  />
                   <h3 class="offer__title">SEO</h3>
-                  <p class="offer__description">Integer ante non nunc, eget est justo vel semper nunc. Lacus </p>
+                  <p class="offer__description">
+                    Integer ante non nunc, eget est justo vel semper nunc. Lacus
+                  </p>
                 </article>
                 <article class="offer">
-                  <img src="./img/offers/user-testing.png" alt="User testing" class="offer__logo">
+                  <img
+                    src="./img/offers/user-testing.png"
+                    alt="User testing"
+                    class="offer__logo"
+                  />
                   <h3 class="offer__title">User testing</h3>
-                  <p class="offer__description">Sed faucibus faucibus egestas volutpat, accumsan adipiscing egestas est. Auctor et leo urna est.</p>
+                  <p class="offer__description">
+                    Sed faucibus faucibus egestas volutpat, accumsan adipiscing
+                    egestas est. Auctor et leo urna est.
+                  </p>
                 </article>
-          </div>
+              </div>
             </div>
           </div>
-      </section>
-      
-        <section class="screen_odd">
+        </section>
+
+        <section class="section">
           <div class="container">
             <div class="choose">
               <img
@@ -222,22 +269,20 @@
                   faucibus at eu elit. Morbi aliquam porttitor mattis consequat
                   neque, tellus blandit.
                 </p>
-                <button class="choose__connect orange-button orange-button_transaparent">
+                <button
+                  class="choose__connect orange-button orange-button_transaparent"
+                >
                   Let’s connect
                 </button>
               </div>
             </div>
           </div>
         </section>
-
-
       </main>
 
-      
-
-      <footer class="screen_odd">
+      <footer class="footer">
         <div class="container">
-          <div class="footer">
+          <div class="footer__row">
             <div class="columns">
               <div class="column">
                 <a href="" class="column__item column__item_main">Company</a>

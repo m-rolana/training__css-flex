@@ -3,7 +3,7 @@
 @import "./header";
 @import "./main-screen";
 @import "./trusted-companies";
-@import "./section-we-offer";
+@import "./we-offer";
 @import "./why-choose-us";
 @import "./footer";
 
@@ -77,10 +77,6 @@ a {
   box-sizing: border-box;
 }
 
-.screen {
-  width: 100%;
-
-  &_odd {
-    background-color:#0f0f0f;
-  }
+.bg-light-black {
+  background-color:#0f0f0f;
 }

@@ -1,0 +1,44 @@
+.we-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 70px 75px 70px;
+    align-self: center;
+
+    &__title {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    
+    &__description {
+      text-align: center;
+      margin-bottom: 40px;
+      width: 634px;
+    }
+    
+    .offers {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+      }
+    
+    .offer {
+      padding: 20px;
+      border-radius: 4px;
+      border: 1px solid #a1aebf;
+      width: 338px;
+
+      &__title {
+        margin-bottom: 20px;
+      }
+      
+      &__description {
+      }
+      
+      &__logo {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  
