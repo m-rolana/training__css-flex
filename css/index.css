@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Quicksand:wght@700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -508,6 +509,72 @@ a {
 }
 .review__text {
   color: #fff;
+  font-weight: 700;
+}
+
+.discuss {
+  padding: 80px 0;
+}
+.discuss__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0;
+  border-radius: 4px;
+  border: 1px solid #a1aebf;
+  background: #ffb219;
+}
+.discuss__title {
+  margin-bottom: 16px;
+  color: #0d0e14;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px; /* 140% */
+}
+.discuss__description {
+  max-width: 511px;
+  margin: 0 auto 32px auto;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.discuss .discuss-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.discuss .discuss-action__email {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  border-radius: 30px;
+  border: 2px solid #a1aebf;
+  padding: 16px;
+  color: #0d0e14;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+.discuss .discuss-action__send {
+  padding: 12px 24px;
+  border-radius: 1000px;
+  background: #000;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
   font-weight: 700;
 }
 
