@@ -1,9 +1,11 @@
 .main-screen {
-  
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 191px 458px 208px 458px;
+    justify-content: center;
+    padding: 191px 0 208px 0;
+    max-width: 523px;
+    margin: 0 auto;
   }
 
   .main-title {
@@ -13,6 +15,16 @@
     margin-bottom: 16px;
     width: 100%;
     color: #fff;
+
+    @media(max-width: $sm) {
+      font-size: 72px;
+      line-height: 72px;
+    }
+
+    @media(max-width: $sm) {
+      font-size: 56px;
+      line-height: 56px;
+    }
   }
 
   .description {
@@ -25,6 +37,10 @@
     display: flex;
     width: 100%;
     gap: 16px;
+
+    @media(max-width: $s) {
+      flex-direction: column;
+    }
 
     &__input {
       flex-basis: 50%;
