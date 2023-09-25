@@ -1,19 +1,43 @@
 .trusted {
     padding: 80px 70px 124px 70px;
-    /* background-color: #000; */
+
+    @media(max-width: $xl) {
+      padding: 80px 30px 100px 30px;
+    }
+
+    @media(max-width: $lg) {
+      padding: 80px 20px 100px 20px;
+    }
   
     &__text {
       display: flex;
       gap: 32px;
       margin: 0 0 64px 0;
+
+      @media(max-width: $md) {
+        gap: 0;
+      }
+
+      @media(max-width: $sm) {
+        flex-direction: column;
+        gap: 32px;
+      }
     }
   
     &__title {
       flex-basis: 50%;
+
+      @media(max-width: $xxl) {
+        flex-basis: 60%;
+      }
     }
   
     &__description {
       flex-basis: 50%;
+
+      @media(max-width: $xxl) {
+        flex-basis: 40%;
+      }
     }
   
     .companies {
