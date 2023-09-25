@@ -2,9 +2,30 @@
     display: flex;
     padding: 23px 75px 23px 102px;
     align-items: center;
-    gap: 17px;
+    gap: 195px;
+
+    @media(max-width: $xxl) {
+        gap: 150px;
+    }
+
+    @media(max-width: $xl) {
+        gap: 100px;
+        padding: 23px 50px 23px 75px;
+    }
+
+    @media(max-width: $lg) {
+        gap: 50px;
+        padding: 23px 0 23px 0;
+    }
 
     &__searching {
+        @media(max-width: $lg) {
+            max-width: 250px;
+        }
+    
+        @media(max-width: $md) {
+            display: none;
+        }
     }
 
     &__content {
