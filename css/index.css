@@ -423,6 +423,11 @@ a {
       -ms-grid-row-align: center;
       align-self: center;
 }
+@media (max-width: 576px) {
+  .we-offer {
+    padding: 80px 20px 75px 20px;
+  }
+}
 .we-offer__title {
   text-align: center;
   margin-bottom: 24px;
@@ -430,7 +435,7 @@ a {
 .we-offer__description {
   text-align: center;
   margin-bottom: 40px;
-  width: 634px;
+  max-width: 634px;
 }
 .we-offer .offers {
   display: -webkit-box;
@@ -447,7 +452,7 @@ a {
   padding: 20px;
   border-radius: 4px;
   border: 1px solid #a1aebf;
-  width: 338px;
+  max-width: 338px;
 }
 .we-offer .offer__title {
   margin-bottom: 20px;
