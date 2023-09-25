@@ -2,13 +2,35 @@
   display: flex;
   gap: 32px;
   justify-content: center;
-  padding: 80px 0;
+  padding: 80px 70px;
+
+  @media (max-width: $xxl) {
+    padding: 80px 0;
+  }
+
+  @media (max-width: $xl) {
+    gap: 70px;
+  }
+
+  @media (max-width: $lg) {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &__projects {
+    display: flex;
+    gap: 32px;
+
+    @media (max-width: $xl) {
+      flex-direction: column;
+    }
+  }
 
   &__column {
   }
 
   &__intro {
-    max-width: 412px;
+    /* max-width: 412px; */
     height: 100%;
   }
 
@@ -45,7 +67,7 @@
     &__tag {
       margin-bottom: 20px;
       padding: 4px 8px;
-      
+
       border-radius: 4px;
       background-color: #ffa800;
 
