@@ -258,6 +258,12 @@ a {
   width: 100%;
   color: #fff;
 }
+.main-title_highlighted {
+  background: linear-gradient(218deg, #9DE8EE, #FA7C0B 60%, #FA7C0B 78%, #9F8CED 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
 @media (max-width: 576px) {
   .main-title {
     font-size: 72px;

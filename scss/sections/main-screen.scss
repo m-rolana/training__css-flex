@@ -6,6 +6,7 @@
     padding: 191px 0 208px 0;
     max-width: 523px;
     margin: 0 auto;
+    
   }
 
   .main-title {
@@ -15,6 +16,12 @@
     margin-bottom: 16px;
     width: 100%;
     color: #fff;
+
+    &_highlighted {
+      background: linear-gradient(218deg, #9DE8EE, #FA7C0B 60%, #FA7C0B 78%, #9F8CED 100%);
+      background-clip: text;
+      color: transparent;
+    }
 
     @media(max-width: $sm) {
       font-size: 72px;

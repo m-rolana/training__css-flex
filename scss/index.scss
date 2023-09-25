@@ -1,13 +1,7 @@
 @import "./reset";
 @import "./fonts";
+@import "./resolutions";
 
-$xs: 320px;
-$s: 400px;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-$xxl: 1400px;
 
 html {
   scroll-behavior: smooth;
@@ -105,11 +99,11 @@ a {
 }
 
 @import "./header";
-@import "./main-screen";
-@import "./trusted-companies";
-@import "./we-offer";
-@import "./why-choose-us";
-@import "./our-work";
-@import "./customers-review";
-@import "./discuss";
+@import "./sections/main-screen";
+@import "./sections/trusted-companies";
+@import "./sections/we-offer";
+@import "./sections/why-choose-us";
+@import "./sections/our-work";
+@import "./sections/customers-review";
+@import "./sections/discuss";
 @import "./footer";
