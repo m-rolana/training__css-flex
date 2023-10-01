@@ -1,21 +1,40 @@
 .footer {
   .footer__row {
-    padding: 80px 70px 40px 70px;
+    padding: 80px 70px 0 70px;
     display: flex;
     flex-direction: column;
   
+    @media(max-width: $xl) {
+      padding: 80px 40px 0 40px;
+    }
+
     .columns {
       display: flex;
       justify-content: space-between;
+      gap: 30px;
+
+      @media(max-width: $xl) {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
     }
   
     .column {
       display: flex;
       flex-direction: column;
       gap: 24px;
+      padding-bottom: 40px;
+
+      @media(max-width: $sm) {
+        flex-basis: 30%;
+      }
   
       &:last-child {
         width: 400px;
+
+        @media(max-width: $xl) {
+          width: auto;
+        }
       }
   
       &__item {
@@ -35,7 +54,7 @@
     }
   
     .email {
-      width: 260px;
+      max-width: 260px;
       border-radius: 24.341px;
       border: 1.623px solid #a1aebf;
       background-color: transparent;
