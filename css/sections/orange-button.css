@@ -1,0 +1,54 @@
+.orange-button {
+  border-radius: 1000px;
+  border: 1px solid #ffa800;
+  background-color: #ffa800;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.orange-button:hover, .orange-button:focus {
+  background-color: #ffcb5a;
+  border: 1px solid #ffcb5a;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+}
+.orange-button:hover {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.orange-button:active {
+  background-color: #ff7b00;
+  border: 1px solid #ff7b00;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.orange-button_transaparent {
+  background-color: transparent;
+  color: #ffa800;
+}
+.orange-button_transaparent:hover, .orange-button_transaparent:focus {
+  background-color: transparent;
+  border: 1px solid #ffcb5a;
+  color: #ffcb5a;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+}
+.orange-button_transaparent:active {
+  background-color: transparent;
+  border: 1px solid #ff7b00;
+  color: #ff7b00;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}

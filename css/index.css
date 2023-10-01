@@ -161,9 +161,49 @@ input {
       -ms-flex-align: center;
           align-items: center;
 }
+.orange-button:hover, .orange-button:focus {
+  background-color: #ffcb5a;
+  border: 1px solid #ffcb5a;
+  color: #000;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+}
+.orange-button:hover {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.orange-button:active {
+  background-color: #ff7b00;
+  border: 1px solid #ff7b00;
+  color: #000;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 .orange-button_transaparent {
   background-color: transparent;
   color: #ffa800;
+}
+.orange-button_transaparent:hover, .orange-button_transaparent:focus {
+  background-color: transparent;
+  border: 1px solid #ffcb5a;
+  color: #ffcb5a;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+}
+.orange-button_transaparent:hover {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.orange-button_transaparent:active {
+  background-color: transparent;
+  border: 1px solid #ff7b00;
+  color: #ff7b00;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0 4px 4px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .title {
@@ -817,10 +857,31 @@ input {
   padding: 12px 24px;
   border-radius: 1000px;
   background: #000;
+  border: 1px solid #000;
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
+}
+.discuss .discuss-action__send:hover, .discuss .discuss-action__send:focus {
+  background-color: #1b1b1b;
+  border: 1px solid #1b1b1b;
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.discuss .discuss-action__send:hover {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.discuss .discuss-action__send:active {
+  background-color: #353535;
+  border: 1px solid #353535;
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 4px 4px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0 4px 4px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 .discuss__top {
   -ms-flex-item-align: end;

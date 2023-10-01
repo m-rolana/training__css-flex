@@ -1,6 +1,7 @@
 @import "./reset";
 @import "./fonts";
 @import "./resolutions";
+@import "./button-animation";
 
 
 html {
@@ -71,9 +72,15 @@ input {
   justify-content: center;
   align-items: center;
 
+  @include buttonHoverAndFocus(#ffcb5a, #ffcb5a, #000, rgba(255, 255, 255, 0.1));
+  @include buttonAction(#ff7b00, #ff7b00, #000, rgba(255, 255, 255, 0.1));
+
   &_transaparent {
     background-color: transparent;
     color: #ffa800;
+
+    @include buttonHoverAndFocus(transparent, #ffcb5a, #ffcb5a, rgba(255, 255, 255, 0.1));
+    @include buttonAction(transparent, #ff7b00, #ff7b00, rgba(255, 255, 255, 0.1));
   }
 }
 
@@ -108,7 +115,7 @@ input {
   background-color:#0f0f0f;
 }
 
-@import "./header";
+@import "./sections/header";
 @import "./sections/main-screen";
 @import "./sections/trusted-companies";
 @import "./sections/we-offer";
@@ -116,4 +123,4 @@ input {
 @import "./sections/our-work";
 @import "./sections/customers-review";
 @import "./sections/discuss";
-@import "./footer";
+@import "./sections/footer";

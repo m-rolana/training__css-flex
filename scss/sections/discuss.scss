@@ -66,10 +66,14 @@
       padding: 12px 24px;
       border-radius: 1000px;
       background: #000;
+      border: 1px solid #000;
       text-transform: uppercase;
       color: #fff;
       font-size: 14px;
       font-weight: 700;
+
+      @include buttonHoverAndFocus(#1b1b1b, #1b1b1b, #fff, rgba(0, 0, 0, 0.1));
+      @include buttonAction(#353535, #353535, #fff, rgba(0, 0, 0, 0.1));
     }
   }
 

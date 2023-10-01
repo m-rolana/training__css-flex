@@ -1,0 +1,23 @@
+@mixin buttonHoverAndFocus($bgColor, $borderColor, $fontColor, $shadowColor) {
+  &:hover,
+  &:focus {
+    background-color: $bgColor;
+    border: 1px solid $borderColor;
+    color: $fontColor;
+    box-shadow: $shadowColor 0 4px 12px;
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+@mixin buttonAction($bgColor, $borderColor, $fontColor, $shadowColor) {
+  &:active {
+    background-color: $bgColor;
+    border: 1px solid $borderColor;
+    color: $fontColor;
+    box-shadow: $shadowColor 0 4px 4px;
+    transform: translateY(0);
+  }
+}
