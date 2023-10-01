@@ -93,6 +93,13 @@ a {
   text-decoration: none;
 }
 
+input {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .wrapper {
   overflow: hidden;
   min-height: 100%;
@@ -776,11 +783,24 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 421px;
+  max-width: 421px;
+  width: 100%;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media (max-width: 576px) {
+  .discuss .discuss-action {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .discuss .discuss-action__email {
-  -ms-flex-preferred-size: 75%;
-      flex-basis: 75%;
   border-radius: 30px;
   border: 2px solid #a1aebf;
   padding: 16px;

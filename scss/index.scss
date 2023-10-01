@@ -21,6 +21,12 @@ a {
   text-decoration: none;
 }
 
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .wrapper {
   overflow: hidden;
   min-height: 100%;
