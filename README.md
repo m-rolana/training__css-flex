@@ -9,3 +9,4 @@ Font transformer: https://transfonter.org/
 - [ ] link animation for our-work screen
 - [ ] burger menu
 - [ ] animate reviews carousel
+- [ ] links return to the same section
