@@ -741,6 +741,11 @@ input {
           flex-direction: column;
   padding: 80px 0 20px 0;
 }
+@media (max-width: 320px) {
+  .discuss {
+    padding: 80px 20px 20px;
+  }
+}
 .discuss__main {
   display: -webkit-box;
   display: -ms-flexbox;
