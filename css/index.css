@@ -276,6 +276,13 @@ input {
   font-weight: 700;
   line-height: 20px; /* 125% */
 }
+.header__row .menu__item:hover,
+.header__row .menu__item focus {
+  color: rgba(255, 255, 255, 0.86);
+}
+.header__row .menu__item:active {
+  color: rgba(255, 255, 255, 0.7);
+}
 .header__row .menu__item_nested {
   background-image: url("../img/nested-menu.png");
   background-repeat: no-repeat;
@@ -357,6 +364,7 @@ input {
   border-radius: 30px;
   border: 2px solid #a1aebf;
   background-color: transparent;
+  color: #fff;
 }
 .attract__button {
   -webkit-box-flex: 0;
@@ -953,6 +961,13 @@ input {
   font-weight: 500;
   letter-spacing: 0.32px;
 }
+.footer .footer__row .column__item:hover,
+.footer .footer__row .column__item focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer__row .column__item:active {
+  color: rgba(255, 255, 255, 0.86);
+}
 .footer .footer__row .column__item_main {
   color: #fff;
   font-weight: 700;
@@ -966,6 +981,7 @@ input {
   font-size: 12.982px;
   line-height: 16.227px; /* 125% */
   letter-spacing: 0.26px;
+  color: #fff;
 }
 .footer .footer__row .created_by {
   margin: 80px 0 0 0;

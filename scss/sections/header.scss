@@ -22,6 +22,15 @@
         font-weight: 700;
         line-height: 20px; /* 125% */
 
+        &:hover,
+        focus {
+          color: rgba(255, 255, 255, 0.86);
+        }
+
+        &:active {
+          color: rgba(255, 255, 255, 0.7);
+        }
+
         &_nested {
           background-image: url("../img/nested-menu.png");
           background-repeat: no-repeat;
